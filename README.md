@@ -5,7 +5,7 @@ cd frontend
 
 ## Installation
 
-Use the package manager [pnpm]([https://pip.pypa.io/en/stable/](https://pnpm.io/installation)) to install packages is a lot faster then npm.
+Use the package manager [pnpm](https://pip.pypa.io/en/stable/](https://pnpm.io/installation)) to install packages is a lot faster then npm.
 
 ```bash
 pnpm install
