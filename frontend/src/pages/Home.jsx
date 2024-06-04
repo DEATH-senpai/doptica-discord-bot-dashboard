@@ -7,7 +7,7 @@ export default function Home() {
     <div className='flex justify-center'>
         <div>hello</div>
         <WelcomeMessage className=''/>
-        <Button>dashboard</Button>
+        <Button href='/dashboard'>dashboard</Button>
     </div>
   )
 }
