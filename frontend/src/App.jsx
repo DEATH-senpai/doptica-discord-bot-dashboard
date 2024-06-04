@@ -3,6 +3,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Dashboard from './pages/Dashboard';
+import Home from './pages/Home';
 
 const darkTheme = createTheme({
     palette: {
@@ -28,6 +29,7 @@ function App() {
 
             <BrowserRouter>
                 <Routes>
+                    <Route path="/" element={<Home />} />
                     <Route path="/dashboard/*" element={<Dashboard />} />
                 </Routes>
             </BrowserRouter>
