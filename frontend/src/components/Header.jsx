@@ -2,7 +2,7 @@ import React from 'react';
 import dopticaLogo from '../assets/Doptica.png';
 function Header() {
   return (
-    <div className="bg-gray-900 p-4 flex justify-center items-center">
+    <div className="bg-gray-900 p-4 flex justify-center items-center sticky top-0 z-50">
     <img src={dopticaLogo} alt="Doptica Logo" className="h-10" />
     <style>
       {`

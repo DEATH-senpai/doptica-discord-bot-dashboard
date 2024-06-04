@@ -1,0 +1,30 @@
+.app-container {
+    display: flex;
+    height: 100%;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #1F1F1F;
+    color: white;
+    padding: 10px;
+  }
+  
+  .main-content {
+    flex: 1;
+    background-color: #0D1B42;
+    color: white;
+    padding: 20px;
+  }
+  
+  .content-boxes {
+    margin-top: 20px;
+  }
+  
+  .content-box {
+    height: 60px;
+    background-color: #3C3C3C;
+    margin-bottom: 20px;
+    border-radius: 4px;
+  }
+  
