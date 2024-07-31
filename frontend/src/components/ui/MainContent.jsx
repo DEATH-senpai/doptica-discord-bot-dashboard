@@ -2,9 +2,11 @@
 import Select from "@mui/material/Select";
 import MenuItem from "@mui/material/MenuItem";
 import Switch from "@mui/material/Switch";
+import Input from "@mui/material/Input";
 function MainContent() {
   return (
     <div dir="rtl" className="flex-1 bg-gray-main p-8 text-white">
+       <Input aria-label="Demo input " multiline placeholder="Type something…" />
       <div className="mt-8 space-y-4">
         <h1 className="border-b text-2xl pb-4 mb-4">الترحيب والمغادره</h1>
         <div className="bg-card rounded-md p-5">
@@ -12,6 +14,7 @@ function MainContent() {
             <h1 className="text-3xl">أرسل رساله عند دخول عضو للسيرفر</h1>
             <Switch aria-label="switch" />
           </div>
+         
           <textarea className="bg-input p-2 border border-white rounded-md resize-none outline-none w-full h-40" />
           <div className="flex gap-4 justify-between mt-4">
             <div className="flex-1">
